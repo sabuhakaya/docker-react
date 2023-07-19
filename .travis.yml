@@ -7,4 +7,4 @@ before_install:
 
 
 scripts: 
-  - docker run sabuha/docker-react npm run  test -- --coverage
+  - docker run -e CI=true sabuha/docker-react npm run test
